@@ -86,9 +86,6 @@ window.addEventListener("keydown", function (evt) {
 
 
 
-
-
-
 formSortHotel.addEventListener("submit", function(evt){
     evt.preventDefault();
 });

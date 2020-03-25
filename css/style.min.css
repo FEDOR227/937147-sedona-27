@@ -742,9 +742,7 @@ margin-left: -1.5px;
   font-family: 'PT Sans', Arial, sans-serif;
 }
 .popup-submit {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  width: 100%;
   border: none;
   color: #ffffff;
   background-color: #81b3d2;
@@ -1349,6 +1347,7 @@ border: none;
 
 .footer {
   width: 100%;
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 120px;
@@ -1365,23 +1364,32 @@ border: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 132px;
-  padding-right: 101px;
+        padding-right: 4%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around ;
+          text-decoration: none;
+
+
 }
 .footer-info__up {
+  list-style: none;
+  padding-bottom: 5px;
+
+}
+
+.footer-info__visitphone {
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
   font-weight: bold;
   vertical-align: bottom;
   font-family: 'PT Sans', Arial, sans-serif;
-  text-decoration: none;
   color: #000000;
   padding-bottom: 5px;
+  text-decoration: none;
 }
+
 .footer-socials {
   display: -webkit-box;
   display: -ms-flexbox;
